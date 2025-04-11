@@ -7,4 +7,4 @@ import json
             InstanceType='t2.micro',
             KeyName='windows',    
             MinCount=1,
-            MaxCount=1,
+            MaxCount=10,
