@@ -5,6 +5,6 @@ import boto3
         response = ec2.run_instances(
             ImageId='ami-0abcdef1234567890',  
             InstanceType='t2.micro',
-            KeyName='your-key-pair-name',    
+            KeyName='windows',    
             MinCount=1,
             MaxCount=1,
